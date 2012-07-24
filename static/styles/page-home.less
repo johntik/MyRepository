@@ -1,0 +1,63 @@
+/*slider*/
+
+.coda-slider-wrapper {
+	width: 960px;
+	clear:both;
+	overflow: hidden;
+	position: relative;
+	
+	.coda-nav {
+		width: 950px !important;
+		clear: both;
+		position: absolute;
+		bottom: 0;
+		right: 10px;
+		margin: 0 0 10px 0;
+		
+		ul {
+			float: right;
+			display:block;
+			overflow:hidden;
+			margin:auto;
+			
+			li {
+				display: inline;
+				
+				a {
+					background: url(../images/design/slider_navi_hover.png) no-repeat center center;
+					width: 16px;
+					height: 16px;
+					display:block;
+					float:left;
+					margin-right:1px;
+					text-decoration:none;
+				}
+				
+				a.current {
+					background: url(../images/design/slider_navi.png) no-repeat center center;
+				}
+			}
+		}
+	}
+}
+
+.coda-slider {
+	background:#fff;
+	float:left;
+	overflow:hidden;
+	height: 388px !important;
+	
+	.panel-container {
+		width: 5000px !important;
+		
+		.panel {
+			display:block;
+			float:left;
+		
+			 images {
+				width: 150px;
+			}
+		}
+	}
+}
+/*slider*/
